@@ -6,9 +6,9 @@
 // @author       SLY w/ Contributions by SkyLove512, anthonyra, niofox
 // @match        https://*.labs.staratlas.com/
 // @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/anchor-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/buffer-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/bs58-browserified.js
+// @require      https://raw.githubusercontent.com/xXDEADSHOTXx/labs-2.0/main/anchor-browserified.js
+// @require      https://raw.githubusercontent.com/xXDEADSHOTXx/labs-2.0/main/buffer-browserified.js
+// @require      https://raw.githubusercontent.com/xXDEADSHOTXx/labs-2.0/main/bs58-browserified.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=staratlas.com
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -20,13 +20,15 @@
 
 	//Used for reading solana data
 	let readRPCs = [
-		'https://rpc.hellomoon.io/cfd5910f-fb7d-4489-9b32-f97193eceefd',
-		'https://solana-api.syndica.io/access-token/WPoEqWQ2auQQY1zHRNGJyRBkvfOLqw58FqYucdYtmy8q9Z84MBWwqtfVf8jKhcFh/rpc',
+		'https://solana-mainnet.g.alchemy.com/v2/CJ4wXBRv9SnF2goBj2WhiIeCGjX-KzK1',
+                'https://solana-mainnet.g.alchemy.com/v2/vhQ7n16TAqkIMrl7-ZDTGBu_60uXh0D5',
 	];
 
 	//Used for pushing transactions to solana chain
 	let writeRPCs = [
 		'https://rpc.hellomoon.io/cfd5910f-fb7d-4489-9b32-f97193eceefd',
+                'https://solana-mainnet.g.alchemy.com/v2/CJ4wXBRv9SnF2goBj2WhiIeCGjX-KzK1',
+                'https://solana-mainnet.g.alchemy.com/v2/vhQ7n16TAqkIMrl7-ZDTGBu_60uXh0D5',
 		'https://solana-api.syndica.io/access-token/WPoEqWQ2auQQY1zHRNGJyRBkvfOLqw58FqYucdYtmy8q9Z84MBWwqtfVf8jKhcFh/rpc',
 	];
 
